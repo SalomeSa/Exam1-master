@@ -1,0 +1,145 @@
+@media(max-width:1024px){
+    /* Section2 */
+    .box{
+        width: 48%;
+    }
+
+    .section2{
+        height: 100%;
+        padding-bottom: 10px;
+    }
+
+    .text5{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:850px){
+    /* Heading */
+    .nav-bar{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+        font-size: 20px;
+        color: #ffffff;
+    }
+}
+
+@media(max-width:700px){
+    .pictures2 img{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .text4{
+        width: 100%;
+        text-align: center;
+    }
+
+    .box2, .copy, .logo2{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+
+@media(max-width:670px){
+    /* section3 */
+
+    .testimonials{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .heading2, .heading4, .text5{
+        width: 100%;
+    }
+    .room{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 400px;
+    }
+
+    .pictures2 img{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:560px){
+    /* section1 */
+
+    .aboutus{
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .button{
+        margin-bottom: 20px;
+    }
+
+
+    .pic1, .pic2{
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .pic1{
+        margin-bottom: 15px;
+    }
+
+    .pic3{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .section2{
+        height: 100%;
+    }
+
+    /* Section2 */
+    .section2{
+        height: 100%;
+    }
+
+    .text3, .box{
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    /* Section3 */
+    .room{
+        width: 70%;
+        height: 300px;
+    }
+
+}
+
+@media(max-width:400px){
+    .headingmain{
+        max-width: 180px;
+    }
+
+    .room{
+        width: 50%;
+        height: 200px;
+    }
+
+    .pictures2 img{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
