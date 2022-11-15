@@ -1,3 +1,20 @@
+@media(max-width:1100px){
+    .contact-box{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .contacts{
+        width: 100%;
+        text-align: center;
+    }
+
+    .heading2{
+        width: 100%;
+    }
+}
+
 @media(max-width:1024px){
     /* Section2 */
     .box{
@@ -27,6 +44,12 @@
     }
 }
 
+@media(max-width:750px){
+    .textarea{
+        width: 100%;
+    }
+}
+
 @media(max-width:700px){
     .pictures2 img{
         max-width: 100%;
@@ -43,6 +66,7 @@
         text-align: center;
         align-items: center;
     }
+    
 }
 
 
@@ -113,7 +137,7 @@
         height: 100%;
     }
 
-    .text3, .box{
+    .text3, .box, .icons2{
         margin: 0 auto;
         text-align: center;
         width: 80%;
@@ -124,6 +148,12 @@
     .room{
         width: 70%;
         height: 300px;
+    }
+
+    /* contacts */
+    .small-box{
+        width: 80%;
+        margin-bottom: 20px;
     }
 
 }
@@ -142,4 +172,13 @@
         max-width: 80%;
         margin: 0 auto;
     }
+
+    .input, .button{
+        width: 200px;
+    }
+
+    .choise{
+        flex-direction: column;
+    }
+
 }
